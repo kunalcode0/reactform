@@ -1,0 +1,134 @@
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #a5dbdd;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+  
+}
+form label{
+    display: flex;
+    flex-direction: column;
+    color: #407c87;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+input{
+    padding: .8rem;
+    width: 25rem;
+    border-radius: .4rem;
+    margin-top: .5rem;
+    border: 2px solid #407c87;
+}
+h1{
+    color: #407c87;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin-top: 1rem;
+   margin-bottom: 1.5rem;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    gap: 1rem;
+
+}
+
+
+.gender input{
+    height: 2rem;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+::placeholder{
+    color: #d3e1e2;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.form{
+    margin-top: 3rem;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.description{
+    height: 3rem;
+}
+
+#uploadImage{
+    display: none;
+}
+.img-upload img{
+    height: 3rem;
+    padding: 1rem 1.5rem;
+    background-color: #d3e1e2;
+    border-radius: .3rem;
+    margin-top: .5rem;
+   
+}
+.form-btn{
+    font-size: 1.2rem;
+    padding: .8rem 1rem;
+    background-color: #fff;
+    color: #407c87;
+    border-radius: .4rem;
+    border: 2px solid #407c87;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.form-btn:hover{
+    background-color: #407c87;
+    color: #fff;
+}
+
+@media screen  and (max-width:520px){
+    input{
+        width: 15rem;
+        font-size: 1rem;
+    }
+    .form{
+        margin-top: 1rem;
+    }
+    form label{
+        font-size: 1rem;
+    }
+    .gender input{
+        height: 1rem;
+    }
+    
+    .img-upload img{
+        height: 2rem;
+    }
+}
+
+.output-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+   
+}
+.output{
+    background-color: #407c87;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #d3e1e2;
+    font-size: 1.3rem;
+}
